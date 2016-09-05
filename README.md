@@ -1,16 +1,18 @@
-# Angular 2 QuickStart Source
+# Book Manager Source - DbGUI SIG Houston
 [![Build Status][travis-badge]][travis-badge-url]
 
-This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
-the foundation for most of the documentation samples and potentially a good starting point for your application.
+This repository holds the TypeScript source code for the Book Manager Angular 2 demo app developed at the DBGUI SIG in Houston, TX
+
+The app is based on the Angular 2 rc-6 version.
+
+The app is started from the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
+the foundation for most of the documentation samples in the Angular 2 website. 
 
 It's been extended with testing support so you can start writing tests immediately.
 
-**This is not the perfect arrangement for your application. It is not designed for production.
+**This is a demo application. It is not designed for production.
 It exists primarily to get you started quickly with learning and prototyping in Angular 2**
 
-We are unlikely to accept suggestions about how to grow this QuickStart into something it is not.
-Please keep that in mind before posting issues and PRs.
 
 ## Prerequisites
 
@@ -25,15 +27,14 @@ Older versions produce errors.
 
 We recommend [nvm](https://github.com/creationix/nvm) for managing multiple versions of node and npm.
 
-## Create a new project based on the QuickStart
+## Create a new project based on the Book Manager app
 
 Clone this repo into new project folder (e.g., `my-proj`).
 ```bash
-git clone  https://github.com/angular/quickstart  my-proj
+git clone  https://github.com/tbaehr23/SIG-BookAppNg2  my-proj
 cd my-proj
 ```
 
-We have no intention of updating the source on `angular/quickstart`.
 Discard everything "git-like" by deleting the `.git` folder.
 ```bash
 rm -rf .git  # non-Windows
