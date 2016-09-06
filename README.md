@@ -27,9 +27,19 @@ Older versions produce errors.
 
 We recommend [nvm](https://github.com/creationix/nvm) for managing multiple versions of node and npm.
 
+The git version control system is extremely useful as a developer productivity tool to document and keep track of your work.
+
+<a href="https://git-scm.com/downloads">Get it now</a> if it's not already installed on your machine.
+
+We recommend [GitHub Desktop](https://desktop.github.com/) as a desktop application that provides a useful GUI for the git version control system.
+
 ## Create a new project based on the Book Manager app
 
-Clone this repo into new project folder (e.g., `my-proj`).
+The first thing to do is decide where you want to store the project.
+ 
+Open a Command Prompt terminal window and move to the parent folder that will contain the project. 
+
+Clone this repo into a new project folder (e.g., `my-proj`).
 ```bash
 git clone  https://github.com/tbaehr23/SIG-BookAppNg2  my-proj
 cd my-proj
@@ -42,7 +52,7 @@ rd .git /S/Q # windows
 ```
 
 ### Create a new git repo
-You could [start writing code](#start-development) now and throw it all away when you're done.
+You could start writing code now and throw it all away when you're done.
 If you'd rather preserve your work under source control, consider taking the following steps.
 
 Initialize this project as a *local git repo* and make the first commit:
@@ -52,7 +62,7 @@ git add .
 git commit -m "Initial commit"
 ```
 
-Create a *remote repository* for this project on the service of your choice.
+If you have an account on a remote service, like GitHub, create a *remote repository* for this project on the service of your choice.
 
 Grab its address (e.g. *`https://github.com/<my-org>/my-proj.git`*) and push the *local repo* to the *remote*.
 ```bash
