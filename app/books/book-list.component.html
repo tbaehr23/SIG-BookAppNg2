@@ -1,14 +1,22 @@
-<h2>{{ pageTitle }}</h2>
+<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        <h2>{{ pageTitle }}</h2>
+    </div>
 
-<table>
-    <thead>
-        <th>Title</th>
-        <th>Author</th>
-    </thead>
-    <tbody>
-        <tr *ngFor="let book of books">
-            <td>{{book.title}}</td>
-            <td>{{book.authorName}}</td>
-        </tr>
-    </tbody>
-</table>
+    <div class='panel-body'>
+        <div class='table-responsive'>
+            <table class='table' >
+                <thead>
+                    <th>Title</th>
+                    <th>Author</th>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let book of books">
+                        <td>{{book.title}}</td>
+                        <td>{{book.authorName}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
