@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { Book } from './book'; //relative to this file
+
 @Component({
     selector: 'book-list',
     templateUrl: './app/books/book-list.component.html' //relative to index.html
@@ -7,7 +9,7 @@ import { Component } from '@angular/core';
 export class BookListComponent {
     
     pageTitle: string = "Book List";
-    books: any[] = [
+    books: Book[] = [
         {id: 1, title: 'The Old Man and the Sea', authorName: 'Ernest Hemingway', genre: 'fiction', year:'1951', price: 25.00 },
         {id: 2, title: 'The Catcher in the Rye', authorName: 'J. D. Salinger', genre: 'fiction', year:'1951', price: 20.00},
         {id: 3, title: 'Macbeth', authorName: 'William Shakespeare', genre: 'tragedy', year:'1623', price: 15.95},
