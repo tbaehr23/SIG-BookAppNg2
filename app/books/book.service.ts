@@ -6,7 +6,8 @@ import { BOOKSMOCK } from './books-mock';
 @Injectable()
 export class BookService {
 
-    getBooks(): Book[]{
-        return BOOKSMOCK;
+    getBooks(): Promise<Book[]>{
+        return Promise.resolve(BOOKSMOCK);
     }
+    
 }

@@ -15,10 +15,11 @@ export class BookListComponent implements OnInit {
     books: Book[];
 
     getBooks(){
-        this.books = this._bookService.getBooks();
+        this._bookService.getBooks().then(data => this.books = data);
     }
 
     ngOnInit(){
         this.getBooks();
     }
+    
 }
